@@ -1,4 +1,8 @@
 
+.lista {
+  text-align: center;
+}
+
 
 
 #lista ul {
@@ -8,6 +12,7 @@
 }
 
 #lista ul a {
+  
   display:inline-block;
   text-align: center;
   color:rgb(252, 251, 255);
@@ -19,7 +24,7 @@
 }
 #lista ul li {
   background-color:#000000;
-  position:relative ;
+  position:center ;
   float:left;
   margin:0;
   padding:0;
@@ -58,7 +63,9 @@ float:
   float: left;
 }}
 
-
+.centro {
+  text-align: center;
+}
 .aside {
   background-color: #8a0900;
   padding: 15px;
@@ -78,3 +85,13 @@ footer {
   font-family: 'Open Sans', sans-serif;
 }
 
+ul{
+  list-style:none;
+  margin:0;
+  padding:0;
+font-size: 18px;
+}
+
+.jumbotron{
+  padding: 0;
+}
