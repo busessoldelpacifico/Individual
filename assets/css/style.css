@@ -100,3 +100,32 @@ font-size: 18px;
   background-color: #0a0061;
   color: #ffffff;
 }
+
+.fecha {
+  background-color: #ac0505;
+  color: aliceblue;
+  text-align: center;
+  border-radius: 30px;
+
+}
+
+.button{
+text-align: center;
+background-color: #000000;
+color: #ffffff;
+height: 50px;
+shape-margin: 10px;
+}
+
+body{
+  background-image: url(/assets/img/steak.png) ;
+background-size: 100%;
+}
+
+.letra{
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(202, 0, 0);
+  font-style:italic;
+  font-weight: 500;
+  background-color: rgba(233, 233, 47, 0.555);
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/style.css">
+  
+    <title>Dias Faltantes para fin de año</title>
+</head>
+<div>
+<header>
+
+<div class="jumbotron text-center">
+    <div class="arriba">
+    <img src="/assets/img/aquicali.svg" width="90px" alt="">
+    <h1>Reserva tu cena de fin de año</h1>
+    <p class="letra">quedan pocos cupos! </p> 
+    </div>
+</div>
+</header>
+
+
+
+
+  <!-- Display the countdown timer in an element -->
+<p id="tiemporestante" class="fecha centro"></p>
+
+
+
+
+
+<div id="cont2" class="centro container-fluid">
+  <button type="button" class="button" onclick="mostrarfecha()">Mostrar fecha</button>
+    <script>
+function mostrarfecha(){
+document.getElementById('cont2').innerHTML="Hoy dia es  " + d.getDay() + "  ,  " + d.getDate() + "  de  " + d.getMonth()  + "  de  " + d.getFullYear() + "  y son las  " + d.getHours() + "  horas  " + d.getMinutes() + "minutos  " + d.getSeconds() + "segundos"
+}
+    </script>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<script src="/assets/js/fecha.js"></script>
+
+<footer>
+  <section name="contacto" id="contacto">
+  
+  <p>San Ignacio 410. Valparaiso. Telf. 9 5927 0848</p>
+  <p>Todos los derechos reservados &#169</p>
+  </section> 
+
+ 
+  </footer>
+
+
+
+
+
+</body>
+</html>
