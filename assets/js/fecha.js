@@ -36,7 +36,3 @@ var x = setInterval(function() {
   }
 }, 1000);
 
-$('.carousel').carousel({
-    interval: 3000,
-    pause: false
-  })
