@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" 
+    integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <title>Formulario de contacto</title>
+    <link rel="stylesheet" href="assets/css/estilos.css">
+
+</head>
+<body>
+    <header>
+
+        <a href="ae7.html"><img src="/assets/img/aquicali.svg" width="90px"></a>
+    
+    </header>
+
+    <div class="contenedor">
+
+        <h1>Contacto</h1>
+        <br>
+       
+        <div class="contenido">
+
+            <div class="info">
+
+                <div class="col">
+                    <i class="icono fas fa-map-marker-alt"></i>
+                    <p>San Ignacio 410 - Valparaiso</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-envelope"></i>
+                    <p>contacto@aquicali.cl</p>
+                </div>
+
+                <div class="col">
+                    <i class="icono fas fa-phone"></i>
+                    <p>(+56) 9 5555 5555 <br> (+56) 9 7777 7777</p>
+                </div>
+
+                <div class="redes-s">
+
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+
+                </div>
+
+            </div>
+
+            <form action="enviado.html" method="GET" class="formulario">
+
+                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                <input type="text" name="correo" placeholder="Correo electrónico" id="correo">
+                <input type="text" name="asunto" placeholder="Asunto" id="asunto">
+                <textarea name="mensaje" id="mensaje" placeholder="Mensaje"></textarea>
+                <button type="button" onclick="validarFormulario()" >Enviar</button>
+
+
+            </form>
+
+        </div>
+
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+
+    <!--Footer-->
+    <footer>
+        <section name="contacto" id="footer" class="info">
+          <div class="redes-s centrale">
+           <a href="https://www.facebook.com/AquicaliDelivery/"> <img src="/assets/img/facebook.png" width="25px"><a href="https://www.facebook.com/AquicaliDelivery/"> <img src="/assets/img/instagram.png" width="25px"></a>
+          </div>
+    
+          <div class="container-fluid texto">
+            <p>San Ignacio 410. Valparaiso. Telf. 9 5927 0848</p>
+            <p>Todos los derechos reservados &#169</p>
+          </div>
+        </section> 
+      </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/validador.js"></script>
+</body>
+</html>
